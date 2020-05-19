@@ -1,5 +1,7 @@
-import java.util.Scanner;
- 
+/*We have a Letter or a word then we need add some letters to it and need to find out shortest palindrome 
+For example we take "S": S will be the shortest palindrome string. If we take "xyz": zyxyz will be the shortest palindrome string
+So we need to add some characters to the given string or character and find out what will be the shortest palindrome string by using simple java program.*/
+
 public class ShortestPalindromeDemo {
  
 public static String shortestPalindrome(String str) {
