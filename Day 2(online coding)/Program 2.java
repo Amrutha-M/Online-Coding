@@ -1,3 +1,9 @@
+/*Write a simple code to identify given linked list is palindrome or not by using stack.
+First take a Stack. Traverse through each node of the linked list and push each node value to Stack.
+Once the traversal & copying is done, iterate through linked list from head node again.
+In each iteration, pop one stack element and compare with node value in respective iteration. It is expected to match stack popped value with node value.
+In case of all matches, its a palindrome. Any one element mismatch makes it not a palindrome.*/
+
 import java.util.Stack;
 
 // Data Structure to store a linked list node
